@@ -1,0 +1,26 @@
+bubblesort
+
+bubblesort function
+	if size <= 1, return
+	loop
+	if array[i] > arr[i+1]
+	swap array[i] and arr[i+1]
+return array
+
+make array
+pass array to function
+print each element in array
+
+
+
+insertionsort
+
+loop 1 to array.length
+	j = 1
+	if array[j-1] > array[j]
+	swap array[j-1] and array[j]
+return array
+
+make array
+pass array to function
+print each element in array

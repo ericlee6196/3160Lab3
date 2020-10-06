@@ -1,0 +1,59 @@
+Problem 1:
+
+sum = 0, x = 0
+while x < 1000
+	if x % 3 or x % 5 = 0
+	add x to sum
+	add 1 to x
+print sum
+
+
+Problem 2
+
+start sum at 0, a = 1, b = 2
+c = a + b
+make list with 2
+while c < 4000000
+	if c is even
+	add to list
+	a becomes b
+	b becomes c
+	c becomes new a + new b
+sum = add all values in array
+print sum
+
+
+Problem 6
+
+set y, sumsquare, squaresum all to zero
+while y <= 100
+	add y squared to sumsquare
+	add y to squaresum
+	add 1 to y
+square squaresum
+print squaresum - sumsquare
+
+problem 9
+
+loop a from 3 to 1000
+nested loop b from a + 1 to 999
+	c^2 = a^2 + b^2
+	square root of c
+	if a + b + c is 1000
+	print a * b * c
+
+problem 16
+
+function to split number
+	make list
+	while n > 0
+		place last digit of n in list
+		remove last digit of n
+	return list
+
+x = 2^1000
+pass x to function
+sum = numbers in list
+print sum
+
+
